@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(212, 211, 209);
+}
+
+.main-container {
+  margin: auto;
+}
+
+.container-inside-1 {
+  /*Общий контейнер для 1 полосы: container-item-img-1 text-container-1*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 200px;
+}
+.container-inside-2 {
+  margin-top: 1px;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.margin-left-right-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  height: 200px;
+  background-repeat: round;
+}
+
+.text-style {
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-container-1 {
+  /* 1 текст-панель*/
+  width: 348px;
+  height: 200px;
+  position: relative;
+  float: right;
+  right: 2px;
+  top: 1px;
+}
+.container-item-img-1 {
+  /*1 фото*/
+  overflow: hidden;
+  float: right;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  right: 2px;
+  top: 1px;
+}
+.text-position-1 {
+  /* 1 текст*/
+  position: relative;
+  right: 0;
+  top: 85px;
+}
+
+.text-container-2 {
+  /* 2 центр текст-панель*/
+  width: 350px;
+  height: 200px;
+  position: relative;
+  float: right;
+  right: 2px;
+}
+.container-item-img-2 {
+  /* 2 центр-фото*/
+  float: left;
+  width: 349px;
+  height: 200px;
+  position: relative;
+}
+
+.container-item-img-3 {
+  /* 3 фото*/
+  overflow: hidden;
+  float: right;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  right: 2px;
+  bottom: 1px;
+}
+.text-container-3 {
+  /* 3 текст-панель*/
+  width: 349px;
+  height: 200px;
+  position: relative;
+  float: right;
+  top: -1px;
+  right: 1px;
+}
+.container-inside-1:hover div {
+  transition: all 0.3s;
+  background-color: #7a7a7a;
+}
+.container-inside-1:hover img {
+  transition: all 1s;
+  transform: scale(1.1);
+  filter: brightness(40%); ;/* яркость*/
+   
+}
