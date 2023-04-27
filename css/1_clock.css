@@ -38,8 +38,8 @@ body{
     transform: rotate(360deg);
   }
 }
-.minute-hand {
-  animation-name: rotate-1-min;
+.hour-hand {
+  animation-name: rotate-1-hour;
   animation-duration: 130s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -47,8 +47,8 @@ body{
   width: 60px;
   border: 1px solid#078F97;
 }
-.hour-hand {
-  animation-name: rotate-1-hour;
+.minute-hand  {
+  animation-name: rotate-1-min;
   animation-duration: 40s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
